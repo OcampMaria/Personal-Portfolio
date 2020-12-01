@@ -12,9 +12,8 @@ nav a {
    color: black;
 }
 
-.img-fluid{
-   
-   width: 200;
-   height: 200;
-  
+.img{
+   margin-right: 10px;
+   margin-bottom: 5px;
+   float: right;
 }
