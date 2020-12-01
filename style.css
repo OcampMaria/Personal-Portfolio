@@ -11,3 +11,10 @@ nav a {
    font-weight: bolder;
    color: black;
 }
+
+.img-fluid{
+   
+   width: 200;
+   height: 200;
+  
+}
