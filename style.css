@@ -15,7 +15,7 @@ body{
    height: 100vh;
    background: url("./Assets/Images/white.jpeg");
    background-size: cover;
-   opacity: .97;
+   opacity: .95;
 }
 
 /* Nav bar */
@@ -36,7 +36,7 @@ main{
 }
 .aboutMe {
    background-color: #292e31;
-   margin-top: 2rem;
+   margin-top: 1.5rem;
 
 }
 
