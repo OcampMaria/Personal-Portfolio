@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+/*Global styles*/
 *,
 *::before,
 *::after{
@@ -6,32 +9,43 @@
     box-sizing: border-box;
 }
 
+
 body{
    background: url(./Assets/Images/numbersblue.jpeg);
    opacity: .97;
-   
 }
 
+/* Nav bar */
+nav{
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+}
 
 nav a { 
    font-weight: bolder;
-   color: black;
+   color: rgb(0, 0, 0);
+   font-family:'Source Sans Pro';
 }
 
-.container{
-   margin-top: 1rem;
+/* main section About Me */
+.aboutMe {
+   margin-top: .8rem;
    background-color: #292e31;
- 
 }
 
-
-.bg-info {
-   background-color: #9ebbc0!important;
-  margin-top: 1rem;
+.rounded-top {
+   float: left;
+   clear: both;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
 }
 
-.img{
-   margin-right: 10px;
-   margin-bottom: 5px;
-   float: right;
+/* footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #292e31;
+   color: white;
+   text-align: center;
 }
