@@ -6,10 +6,28 @@
     box-sizing: border-box;
 }
 
+body{
+   background: url(./Assets/Images/numbersblue.jpeg);
+   opacity: .97;
+   
+}
+
 
 nav a { 
    font-weight: bolder;
    color: black;
+}
+
+.container{
+   margin-top: 1rem;
+   background-color: #495863;
+ 
+}
+
+
+.bg-info {
+   background-color: #9ebbc0!important;
+  margin-top: 1rem;
 }
 
 .img{
