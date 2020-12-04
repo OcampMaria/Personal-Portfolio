@@ -36,42 +36,41 @@ main{
    margin-top: 1rem;
 }
 
-main.mb-2, .my-2 {
-   margin-bottom: 10rem!important;
-}
+
 
 /*About me image */
 .rounded-top {
    float: left;
    clear: both;
    margin-right: 1rem;
-   margin-bottom: 1rem;
 }
 
 .contactinfo{
    text-align: center;
 }
+
 .infobox{
-   border: 1px #fff solid;
+   border: 2px #fff solid;
    padding: .7rem;
    margin-bottom: .5rem;
    text-align: center;
 }
 
 /* portafolio*/
-/* buttons */
+
 .portfolio{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: center;
-   padding-bottom: 1rem;
 }
+
+
 
 button.btn{
    padding: 6rem;
    border-style: solid;
-   border-color: rgb(38, 38, 44);
+   border-color: rgb(44, 38, 41);
    border-radius: 6rem;
 }
 
@@ -92,10 +91,9 @@ button.btn{
 
 
 
-
-
 /* footer */
-.footer {
+footer {
+   display: inline-block;
    position: fixed;
    left: 0;
    bottom: 0;
@@ -103,5 +101,6 @@ button.btn{
    background-color:#3e3f41;
    color: white;
    text-align: center;
+
 }
 
