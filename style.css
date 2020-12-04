@@ -28,20 +28,14 @@ nav a {
 
 /* main section About Me */
 main{
-   max-width: 17rem;
-   max-height: 48rem;
    background-color: #3e3f41;
-   margin-top: 1rem;
-
 }
 
-/* main.mb-2, .my-2 {
+main.mb-2, .my-2 {
    margin-bottom: 10rem!important;
-} */
-
-div.col-md-9{
-   margin-bottom: 12rem;
+ 
 }
+
 
 /*About me image */
 .rounded-top {
