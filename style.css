@@ -27,22 +27,17 @@ nav a {
 }
 
 /* main sections*/
-main{
-   background-color: #3e3f41;
-}
 
-main.mb-2, .my-2 {
-   margin-bottom: 10rem!important;
- 
-}
 
-/*About me */
-
-main.aboutme.mb-2, .my-2 {
+main.mb-2{
    margin:1rem;
    margin-top: 1rem!important;
    margin-bottom: 7rem!important;
+   background-color: #3e3f41;
 }
+
+
+/*About me */
 
 .rounded-top {
    float: left;
