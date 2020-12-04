@@ -84,10 +84,11 @@ button.btn{
    background: url("./Assets/Images/portafolioPlaner.gif") center no-repeat;
    background-size: cover;
 }
-#resume{
-   background: url("./Assets/Images/codelines.jpeg") center no-repeat;
+#ptres{
+   background: url("./Assets/Images/PortLEtys.png") center no-repeat;
    background-size: cover;
 }
+
 
 
 
