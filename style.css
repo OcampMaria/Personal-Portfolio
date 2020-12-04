@@ -37,7 +37,7 @@ main{
 }
 
 main.mb-2, .my-2 {
-   margin-bottom: 20rem!important;
+   margin-bottom: 10rem!important;
 }
 
 /*About me image */
@@ -57,6 +57,33 @@ main.mb-2, .my-2 {
    margin-bottom: .5rem;
    text-align: center;
 }
+
+/* portafolio*/
+/* buttons */
+.portafolio{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 1rem;
+  
+}
+
+button.btn{
+   padding: 5rem;
+}
+
+#pUno{
+   background: url("./Assets/Images/passGenerator.png") center no-repeat;
+   background-size: cover;
+}
+
+#pDos{
+   background: url("./Assets/Images/portafolioPlaner.gif") center no-repeat;
+   background-size: cover;
+}
+
+
 
 /* footer */
 .footer {
