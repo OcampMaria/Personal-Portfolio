@@ -71,6 +71,8 @@ main.mb-2, .my-2 {
 
 button.btn{
    padding: 5rem;
+   border-style: solid;
+   border-color: rgb(38, 38, 44);
 }
 
 #pUno{
