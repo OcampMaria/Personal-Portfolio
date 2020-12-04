@@ -14,13 +14,14 @@ body{
    height: 100vh;
    background: url("./Assets/Images/white.jpeg");
    background-size: cover;
-   opacity: .95;
+   opacity: .93;
 }
 
 /* Nav bar */
 nav{
    background: linear-gradient(to bottom,rgba(24, 24, 48, 0.5), transparent);
    text-transform: uppercase;
+ 
 }
 
 nav a { 
@@ -31,9 +32,12 @@ nav a {
 /* main section About Me */
 main{
    max-width: 25rem;
-   background-color: #292e31;
+   background-color: #3e3f41;
    margin-top: 1rem;
+}
 
+main.mb-2, .my-2 {
+   margin-bottom: 8rem!important;
 }
 
 /*About me image */
@@ -42,6 +46,17 @@ main{
    clear: both;
    margin-right: 1rem;
    margin-bottom: 1rem;
+   
+}
+
+.contactinfo{
+   text-align: center;
+}
+.infobox{
+   border: 1px #fff solid;
+   padding: .7rem;
+   margin-bottom: .5rem;
+   text-align: center;
 }
 
 /* footer */
@@ -50,7 +65,7 @@ main{
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #292e31;
+   background-color:#3e3f41;
    color: white;
    text-align: center;
    
