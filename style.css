@@ -26,7 +26,7 @@ nav a {
    font-size: 1rem;
 }
 
-/* main section About Me */
+/* main sections*/
 main{
    background-color: #3e3f41;
 }
@@ -36,8 +36,14 @@ main.mb-2, .my-2 {
  
 }
 
+/*About me */
 
-/*About me image */
+main.aboutme.mb-2, .my-2 {
+   margin:1rem;
+   margin-top: 1rem!important;
+   margin-bottom: 7rem!important;
+}
+
 .rounded-top {
    float: left;
    clear: both;
