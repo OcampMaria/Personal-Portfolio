@@ -37,7 +37,7 @@ main{
 }
 
 main.mb-2, .my-2 {
-   margin-bottom: 8rem!important;
+   margin-bottom: 20rem!important;
 }
 
 /*About me image */
@@ -46,7 +46,6 @@ main.mb-2, .my-2 {
    clear: both;
    margin-right: 1rem;
    margin-bottom: 1rem;
-   
 }
 
 .contactinfo{
@@ -68,6 +67,5 @@ main.mb-2, .my-2 {
    background-color:#3e3f41;
    color: white;
    text-align: center;
-   
 }
 
