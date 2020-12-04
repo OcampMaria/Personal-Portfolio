@@ -9,7 +9,7 @@
 body{
    width: 100%;
   
-   background: url("/Assets/Images/script.jpg");
+   background: url("./cssImg/script.jpg");
    background-size: cover;
    opacity: .95;
 }
@@ -74,16 +74,16 @@ button.btn{
 
 
 #pUno{
-   background: url("/Assets/Images/passGenerator.png") center no-repeat;
+   background: url("./cssImg/passGenerator.png") center no-repeat;
    background-size: cover;
 }
 
 #pDos{
-   background: url("/Assets/Images/portafolioPlaner.gif") center no-repeat;
+   background: url("./cssImg/portafolioPlaner.gif") center no-repeat;
    background-size: cover;
 }
 #ptres{
-   background: url("/Assets/Images/PortLEtys.png") center no-repeat;
+   background: url("./cssImg/PortLEtys.png") center no-repeat;
    background-size: cover;
 }
 
