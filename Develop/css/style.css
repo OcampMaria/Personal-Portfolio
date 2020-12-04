@@ -8,8 +8,8 @@
 
 body{
    width: 100%;
-   height: 100vh;
-   background: url("./Assets/Images/code.jpeg");
+  
+   background: url("/Assets/Images/script.jpg");
    background-size: cover;
    opacity: .95;
 }
@@ -33,7 +33,7 @@ main.mb-2{
    margin-top: 1rem!important;
    margin-bottom: 7rem!important;
    border-radius: 3rem;
-   background-color:#3a4b58;
+   background-color:#3a4b58c7;
 }
 
 
@@ -74,16 +74,16 @@ button.btn{
 
 
 #pUno{
-   background: url("./Assets/Images/passGenerator.png") center no-repeat;
+   background: url("/Assets/Images/passGenerator.png") center no-repeat;
    background-size: cover;
 }
 
 #pDos{
-   background: url("./Assets/Images/portafolioPlaner.gif") center no-repeat;
+   background: url("/Assets/Images/portafolioPlaner.gif") center no-repeat;
    background-size: cover;
 }
 #ptres{
-   background: url("./Assets/Images/PortLEtys.png") center no-repeat;
+   background: url("/Assets/Images/PortLEtys.png") center no-repeat;
    background-size: cover;
 }
 
