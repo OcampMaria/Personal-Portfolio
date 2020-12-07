@@ -8,7 +8,6 @@
 
 body{
    width: 100%;
-  
    background: url("./cssImg/script.jpg");
    background-size: cover;
    opacity: .95;
@@ -57,6 +56,11 @@ main.mb-2{
 }
 
 /* portafolio*/
+
+div .applications a{
+   line-height: .2rem;
+   
+}
 /* buttons */
 .portfolio{
    display: flex;
@@ -67,9 +71,9 @@ main.mb-2{
 }
 
 button.btn{
-   padding: 6rem;
+   padding: 8rem;
    border-style: solid;
-   border-radius: 6rem;
+   border-radius: 8rem;
 }
 
 
@@ -101,3 +105,4 @@ button.btn{
    color: white;
    text-align: center;
 }
+
