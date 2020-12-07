@@ -11,8 +11,8 @@ Visual Studio Code was used to work with all the technologies previously mention
 When completing this application, some of the challenges that appeared included capturing the right dimensions of containers and images. Using bootstrap alone was not enough to successfully finish the responsive portfolio. I used styling CSS to fix arising dimension issues.  
 </p>
 
-## InstalDeployed Application
-<p> The link to the published application can be accessed on the following link: 
+## Deployed Application
+<p> The link to the published application can be accessed on the following link: <br>
 ( https://ocampmaria.github.io/Personal-Portfolio/). </p>
 
 This is a preview of how the Web application Looks Like: 
