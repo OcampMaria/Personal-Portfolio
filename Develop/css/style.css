@@ -57,9 +57,9 @@ main.mb-2{
 
 /* portafolio*/
 
-div .applications a{
+div .applications a, p.resume{
    line-height: .2rem;
-   
+   font-size: 1.15rem;
 }
 /* buttons */
 .portfolio{
