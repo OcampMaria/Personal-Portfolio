@@ -32,6 +32,8 @@ main.mb-2{
    margin-bottom: 7rem!important;
    border-radius: 3rem;
    background-color:#3a4b58c7;
+   text-align: -webkit-center;
+
 }
 
 
@@ -101,31 +103,8 @@ button.btn{
    width: 100%;
    background-color:#3a4b58;
    color: white;
-   text-align: center;
+   text-align: -webkit-center;
+
 }
 
-
-/* media queries */
-/* @media screen and (max-width: 500px){
-   main.section {
-       padding: 0.5rem .5rem;
-       clear: both;
-   }
-   aside {
-       padding: 2rem;
-       padding-right: 10rem;
-   }
-
-   div.control{
-       padding: initial;
-      
-   }
-
-   div.columns.is-centered{
-       display: flex;
-       flex-flow: column;
-   }
-  
-   
-} */
 
