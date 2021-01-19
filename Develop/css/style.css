@@ -19,14 +19,13 @@ nav{
    
 }
 
+
 nav a { 
    color: white;
    font-size: 1rem;
 }
 
 /* main sections*/
-
-
 main.mb-2{
    margin:1rem;
    margin-top: 1rem!important;
@@ -37,7 +36,6 @@ main.mb-2{
 
 
 /*About me */
-
 .rounded-top {
    float: left;
    clear: both;
@@ -87,7 +85,11 @@ button.btn{
    background-size: cover;
 }
 #ptres{
-   background: url("./cssImg/PortLEtys.png") center no-repeat;
+   background: url("./cssImg/NotesApp.jpg") center no-repeat;
+   background-size: cover;
+}
+#pcuatro{
+   background: url("./cssImg/WeatherApp.jpg") center no-repeat;
    background-size: cover;
 }
 
@@ -101,4 +103,29 @@ button.btn{
    color: white;
    text-align: center;
 }
+
+
+/* media queries */
+/* @media screen and (max-width: 500px){
+   main.section {
+       padding: 0.5rem .5rem;
+       clear: both;
+   }
+   aside {
+       padding: 2rem;
+       padding-right: 10rem;
+   }
+
+   div.control{
+       padding: initial;
+      
+   }
+
+   div.columns.is-centered{
+       display: flex;
+       flex-flow: column;
+   }
+  
+   
+} */
 
