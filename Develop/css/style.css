@@ -1,110 +1,170 @@
-*,
-*::before,
-*::after{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box; 
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --main-font: "League Spartan,Helvetica,Arial,sans-serif";
+  --secondary-font: "LibreBaskerville-Regular,Palatino Linotype,Times New Roman,serif";
+  --main-color-dark: #000000;
+  --main-color: rgb(61, 196, 206);
+  --secondary-color: rgb(130, 180, 184);
+}
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-   width: 100%;
-   /* background: url("./cssImg/script.jpg"); */
-   background-size: cover;
-   opacity: .95;
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
 }
 
-/* Nav bar */
-nav{
-   text-transform: uppercase;
-   
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
-
-nav a { 
-   color: white;
-   font-size: 1rem;
+/* all similar content styling codes */
+section {
+  padding: 100px 0;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.about,
+.teams,
+.contact,
+footer {
+  font-family: "Poppins", sans-serif;
+}
+.about .about-content,
+.contact .contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: var(--main-font);
+}
+section .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: var(--main-color-dark);
+  transform: translateX(-50%);
+}
+section .title::after {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: var(--main-color);
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
 }
 
-/* main sections*/
-main.mb-2{
-   margin:1rem;
-   margin-top: 1rem!important;
-   margin-bottom: 7rem!important;
-   border-radius: 3rem;
-   background-color:#3a4b58c7;
-   text-align: -webkit-center;
+/* navbar styling */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: var(--main-font);
+  transition: all 0.3s ease;
+}
+.navbar.sticky {
+  padding: 15px 0;
+  background: rgb(0, 0, 0);
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: var(--main-color);
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span {
+  color: var(--main-color-dark);
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
 
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  color: var(--main-color);
+}
+.navbar.sticky .menu li a:hover {
+  color: #fff;
 }
 
-
-/*About me */
-.rounded-top {
-   float: left;
-   clear: both;
-   margin-right: 1rem;
-   margin-bottom: 1rem;
+/* menu btn styling */
+.menu-btn {
+  color: var(--secondary-color);
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
 }
-
-.contactinfo{
-   text-align: center;
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: var(--main-color);
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
 }
-.infobox{
-   border: 1px #fff solid;
-   padding: .7rem;
-   margin-bottom: .5rem;
-   text-align: center;
+.scroll-up-btn.show {
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
 }
-
-/* portafolio*/
-
-div .applications a, p.resume{
-   line-height: .2rem;
-   font-size: 1.15rem;
+.scroll-up-btn:hover {
+  filter: brightness(90%);
 }
-/* buttons */
-.portfolio{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   align-items: center;
-   padding-bottom: 1rem;
-}
-
-button.btn{
-   padding: 8rem;
-   border-style: solid;
-   border-radius: 8rem;
-}
-
-
-#pUno{
-   background: url("./cssImg/passGenerator.png") center no-repeat;
-   background-size: cover;
-}
-
-#pDos{
-   background: url("./cssImg/portafolioPlaner.gif") center no-repeat;
-   background-size: cover;
-}
-#ptres{
-   background: url("./cssImg/NotesApp.gif") center no-repeat;
-   background-size: cover;
-}
-#pcuatro{
-   background: url("./cssImg/WeatherApp.jpg") center no-repeat;
-   background-size: cover;
-}
-
-/* footer */
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color:#283044;
-   color: white;
-   text-align: -webkit-center;
-
-}
-
-
