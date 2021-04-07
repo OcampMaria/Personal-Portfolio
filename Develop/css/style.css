@@ -218,8 +218,7 @@ section .title::after {
   background: none;
 }
 
-/* social */
-
+/* icons */
 .social-media {
   padding-top: 2rem;
   margin-inline-end: auto;
@@ -228,4 +227,58 @@ section .title::after {
 
 .fab {
   color: var(--main-color-dark);
+}
+
+/* about section styling */
+.about .title::after {
+  content: "Who I am";
+}
+.about .about-content .left {
+  width: 45%;
+}
+.about .about-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.about .about-content .right {
+  width: 55%;
+}
+.about .about-content .right .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.about .about-content .right .text span {
+  color: var(--main-color);
+}
+.about .about-content .right p {
+  text-align: justify;
+}
+.about .about-content .right a {
+  display: inline-block;
+  background: var(--main-color);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+.about .about-content .right a:hover {
+  color: var(--main-color);
+  background: none;
+}
+
+.skills .fab {
+  padding-top: 4rem;
+  padding-left: 11rem;
+  margin-inline-end: auto;
+  align-content: center;
+  align-items: center;
+  color: gray;
+  position: relative;
 }
