@@ -219,6 +219,11 @@ section .title::after {
   background: none;
 }
 
+p{
+   font: var(--secondary-font)
+
+}
+
 /* icons */
 .social-media {
   padding-top: 2rem;

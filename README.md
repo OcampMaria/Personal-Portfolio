@@ -16,7 +16,7 @@ When completing this application, some of the challenges that appeared included 
 ( https://ocampmaria.github.io/Personal-Portfolio/). </p>
 
 This is a preview of how the Web application Looks Like: 
-![password generator demo](./Assets/Images/portfolioScreenshot.jpg)
+![password generator demo](./Assets/images/preview.gif)
 
 
 
