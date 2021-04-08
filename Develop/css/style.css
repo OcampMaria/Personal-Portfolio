@@ -282,3 +282,81 @@ section .title::after {
   color: gray;
   position: relative;
 }
+
+/* projects section styling */
+.projects {
+  color: #fff;
+  background: #111;
+}
+
+.projects .title::before {
+  background: #fff;
+}
+
+.projects .title::after {
+  background: #111;
+  content: "what i provide";
+}
+
+/* projects section styling */
+.projects .title::after {
+  content: "Achieved";
+}
+.projects .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.projects .carousel .card:hover {
+  background: var(--main-color);
+}
+.projects .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.projects .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+.projects .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+.projects .carousel .card img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 11%;
+  border: 5px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+.projects .carousel .card:hover img {
+  border-color: #fff;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color) !important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: var(--main-color) !important;
+}
