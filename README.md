@@ -1,7 +1,5 @@
 # Professional- Portafolio
 
-![password generator demo](./Assets/images/preview.gif)
-
 ## Table of Contents
   * [Description](#description)
   * [Deployed](#deployed)
