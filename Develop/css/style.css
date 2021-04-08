@@ -224,6 +224,10 @@ p{
 
 }
 
+.card p{
+   font-size: 1.2rem;
+}
+
 /* icons */
 .social-media {
   padding-top: 2rem;
