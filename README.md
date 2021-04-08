@@ -1,5 +1,7 @@
 # Professional- Portafolio
 
+![password generator demo](./Assets/images/preview.gif)
+
 ## Table of Contents
   * [Description](#description)
   * [Deployed](#deployed)
@@ -21,10 +23,8 @@ Some of the challenges that appeared included capturing containers and images' c
 The link to the published application can be accessed on the following link: <br>
 ( https://ocampmaria.github.io/Personal-Portfolio/). 
 
-Preview : 
+## Preview: 
 ![password generator demo](./Assets/images/preview.gif)
-
-
 
 ## License
 Licensed under the MIT license.
