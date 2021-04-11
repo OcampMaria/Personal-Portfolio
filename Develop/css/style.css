@@ -285,7 +285,7 @@ p {
 
 .skills .fab {
   padding-top: 4rem;
-  padding-left: 11rem;
+  padding-left: 10rem;
   margin-inline-end: auto;
   align-content: center;
   align-items: center;
@@ -598,8 +598,7 @@ footer span a:hover {
   }
 
   .card p {
-    
-    height: 25rem;
+    height: 18rem;
 }
  
 }
@@ -617,7 +616,11 @@ footer span a:hover {
   }
 
   .about .about-content .right a {
-    margin-top: 220px;
+    margin-top: 122px;
+  }
+
+  .skills .fab {
+    padding: 3.5rem;
   }
 
   .writing {
