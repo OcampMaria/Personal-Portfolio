@@ -312,13 +312,19 @@
           </div>
           <div class="column right">
             <div class="text">Message me</div>
-            <form class="contact-form" action="#" method="POST">
+            <form class="contact-form" action="https://formsubmit.co/mariaocampo0513@gmail.com" method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+
               <div class="fields">
                 <div class="field name">
-                  <input type="text" class="fullname" placeholder="Name" />
+                  <input type="text" class="fullname" placeholder="Name" required/>
                 </div>
                 <div class="field email">
-                  <input type="text" class="email-input" placeholder="Email" />
+                  <input type="text" 
+                  size="19"
+                  name="ContactName"
+                  class="email-input" placeholder="Email" required/>
                 </div>
               </div>
               <div class="field">
@@ -330,6 +336,7 @@
                   cols="30"
                   rows="10"
                   placeholder="Message.."
+                  name="ContactName"
                 ></textarea>
               </div>
               <div class="button-area">
