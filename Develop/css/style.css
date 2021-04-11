@@ -219,13 +219,15 @@ section .title::after {
   background: none;
 }
 
-p{
-   font: var(--secondary-font)
-
+p {
+  font: var(--secondary-font);
 }
 
-.card p{
-   font-size: 1.2rem;
+.card p {
+  font-size: 1.2rem;
+  text-align: start;
+  height: 14rem;
+  padding: 0.58rem;
 }
 
 /* icons */
@@ -263,9 +265,7 @@ p{
 .about .about-content .right .text span {
   color: var(--main-color);
 }
-.about .about-content .right p {
-  text-align: justify;
-}
+
 .about .about-content .right a {
   display: inline-block;
   background: var(--main-color);
@@ -339,8 +339,8 @@ p{
   margin: 10px 0 7px 0;
 }
 .projects .carousel .card img {
-  height: 200px;
-  width: 200px;
+  height: 260px;
+  width: 260px;
   object-fit: cover;
   border-radius: 11%;
   border: 5px solid var(--secondary-color);
@@ -371,6 +371,25 @@ p{
   background: var(--main-color) !important;
 }
 
+.github {
+  color: #fff;
+  width: 118px !important;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  border: 2px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.github:hover {
+  color: var(--main-color);
+  background: var(--secondary-color);
+}
+
+a {
+  color: #000000;
+}
 /* contact section styling */
 .contact .title::after {
   content: "get in touch";
@@ -383,9 +402,7 @@ p{
   font-weight: 600;
   margin-bottom: 10px;
 }
-.contact .contact-content .left p {
-  text-align: justify;
-}
+
 .contact .contact-content .left .icons {
   margin: 10px 0;
 }
@@ -462,6 +479,7 @@ p{
   border: 2px solid var(--secondary-color);
   transition: all 0.3s ease;
 }
+
 .right form .button-area button:hover {
   color: var(--main-color);
   background: none;
@@ -469,157 +487,163 @@ p{
 
 /* footer section styling */
 footer {
-   background: #111;
-   padding: 15px 23px;
-   color: #fff;
-   text-align: center;
- }
- footer span a {
-   color: var(--main-color);
-   text-decoration: none;
- }
- footer span a:hover {
-   text-decoration: underline;
- }
- 
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
 
- 
 /* responsive media query start */
 @media (max-width: 1104px) {
-   .about .about-content .left img {
-     height: 350px;
-     width: 350px;
-   }
- }
- 
- @media (max-width: 991px) {
-   .max-width {
-     padding: 0 50px;
-   }
- }
- @media (max-width: 947px) {
-   .menu-btn {
-     display: block;
-     z-index: 999;
-     color: var(--main-color);
-   }
-   .menu-btn i.active:before {
-     content: "\f00d";
-   }
-   .navbar .menu {
-     position: fixed;
-     height: 100vh;
-     width: 100%;
-     left: -100%;
-     top: 0;
-     background: aliceblue;
-     text-align: center;
-     padding-top: 80px;
-     transition: all 0.3s ease;
-   }
-   .navbar .menu.active {
-     left: 0;
-   }
-   .navbar .menu li {
-     display: block;
-   }
-   .navbar .menu li a {
-     display: inline-block;
-     margin: 20px 0;
-     font-size: 25px;
-   }
-   .home .home-content .text-2 {
-     font-size: 70px;
-   }
-   .home .home-content .text-3 {
-     font-size: 35px;
-   }
-   .home .home-content a {
-     font-size: 23px;
-     padding: 10px 30px;
-   }
-   .max-width {
-     max-width: 930px;
-   }
-   .about .about-content .column {
-     width: 100%;
-   }
-   .about .about-content .left {
-     display: flex;
-     justify-content: center;
-     margin: 0 auto 60px;
-   }
-   .about .about-content .right {
-     flex: 100%;
-   }
-   .services .serv-content .card {
-     width: calc(50% - 10px);
-     margin-bottom: 20px;
-   }
-   .skills .skills-content .column,
-   .contact .contact-content .column {
-     width: 100%;
-     margin-bottom: 35px;
-   }
- }
- 
- @media (max-width: 690px) {
-   .max-width {
-     padding: 0 23px;
-   }
-   .home .home-content .text-1 {
-     font-size: 30px;
-   }
-   .home .home-content .text-2 {
-     font-size: 60px;
-   }
-   .home .home-content .text-3 {
-     font-size: 30px;
-   }
-   .home .home-content a {
-     font-size: 20px;
-   }
-   .services .serv-content .card {
-     width: 100%;
-   }
- 
-   .skills .fab {
-     padding-left: 4.5rem;
-   }
- }
- 
- @media (max-width: 500px) {
-   .home .home-content .text-2 {
-     font-size: 40px;
-   }
-   .home .home-content .text-3 {
-     font-size: 25px;
-   }
-   .about .about-content .right .text,
-   .skills .skills-content .left .text {
-     font-size: 20px;
-   }
-   .contact .right form .fields {
-     flex-direction: column;
-   }
-   .contact .right form .name,
-   .contact .right form .email {
-     margin: 0;
-   }
-   .right form .error-box {
-     width: 150px;
-   }
-   .scroll-up-btn {
-     right: 15px;
-     bottom: 15px;
-     height: 38px;
-     width: 35px;
-     font-size: 23px;
-     line-height: 38px;
-   }
- 
-   .skills .fab {
-     padding-left: 0.5rem;
-   }
- }
- 
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 947px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+    color: var(--main-color);
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: aliceblue;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  .home .home-content .text-2 {
+    font-size: 70px;
+  }
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+  .home .home-content a {
+    font-size: 23px;
+    padding: 10px 30px;
+  }
+  .max-width {
+    max-width: 930px;
+  }
+  .about .about-content .column {
+    width: 100%;
+  }
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
+  .services .serv-content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  .skills .skills-content .column,
+  .contact .contact-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+  .home .home-content .text-1 {
+    font-size: 30px;
+  }
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+  .home .home-content .text-3 {
+    font-size: 30px;
+  }
+  .home .home-content a {
+    font-size: 20px;
+  }
+  .services .serv-content .card {
+    width: 100%;
+  }
+
+  .skills .fab {
+    padding-left: 4.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .home .home-content .text-2 {
+    font-size: 40px;
+  }
+  .home .home-content .text-3 {
+    font-size: 25px;
+  }
+  .about .about-content .right .text,
+  .skills .skills-content .left .text {
+    font-size: 20px;
+  }
+
+  .about .about-content .right a {
+    margin-top: 220px;
+  }
+
+  .writing {
+    height: 10rem;
+    font-size: 20px;
+  }
+  .contact .right form .fields {
+    flex-direction: column;
+  }
+  .contact .right form .name,
+  .contact .right form .email {
+    margin: 0;
+  }
+  .right form .error-box {
+    width: 150px;
+  }
+  .scroll-up-btn {
+    right: 15px;
+    bottom: 15px;
+    height: 38px;
+    width: 35px;
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .skills .fab {
+    padding-left: 0.5rem;
+  }
+}

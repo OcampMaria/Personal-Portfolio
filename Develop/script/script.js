@@ -69,4 +69,6 @@ $(document).ready(function () {
       },
     },
   });
+
+  $(".more").append("Learn More")
 });
