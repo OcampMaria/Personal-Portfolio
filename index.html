@@ -321,10 +321,11 @@
                 <div class="field email">
                   <input 
                   class="email-input" type="email" name="email" class="form-control" placeholder="Email Address" required/>
+                  <input type="text" name="_honey" style="display:none">
                 </div>
               </div>
               <div class="field">
-                <input type="text" class="subject" placeholder="Subject" />
+                <input type="text" class="subject" name="subject" placeholder="Subject" />
               </div>
               <div class="field textarea">
                 <textarea
@@ -336,6 +337,7 @@
                 <button class="send-msg" type="submit" name="send">
                   Send message
                 </button>
+                <input type="hidden" name="_captcha" value="false">
               </div>
             </form>
           </div>
