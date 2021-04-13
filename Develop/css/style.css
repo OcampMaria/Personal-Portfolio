@@ -223,6 +223,11 @@ p {
   font: var(--secondary-font);
 }
 
+subtitle {
+  font-family: var(--secondary-font);
+  
+}
+
 .card p {
   font-size: 1.2rem;
   text-align: start;
@@ -322,6 +327,7 @@ p {
 }
 .projects .carousel .card:hover {
   background: var(--main-color);
+  
 }
 .projects .carousel .card .box {
   display: flex;
@@ -348,7 +354,17 @@ p {
 }
 .projects .carousel .card:hover img {
   border-color: #fff;
+  
 }
+
+.scroll{ 
+  width: 260px;
+  height: 300px;
+  overflow: auto;
+  margin:1rem
+}
+
+
 .owl-dots {
   text-align: center;
   margin-top: 20px;
